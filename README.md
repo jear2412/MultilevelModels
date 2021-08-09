@@ -9,6 +9,7 @@ I will try include a version in spanish always, in the future I might create a r
 
 
 Ejemplos de modelos multinivel, MLM por sus siglas en ingles. 
+
 El repositorio incluye varios ejemplos y ejercicios de MLMS. El objetivo es poder estudiar modelos Bayesianos jerárquicos (BHM).
 
 
