@@ -1,3 +1,6 @@
+# Example taken from
+# https://ourcodingclub.github.io/tutorials/mixed-models/
+
 library(mvtnorm)
 library(purrr)
 library(tidyr)
