@@ -193,6 +193,14 @@ ggplot(dragons, aes(x = bodyLength, y = testScore, colour = site)) +
 
 #body length does not affect how smart a dragon is, we can pick a small dragon to train
 
+#---- brms
+
+b1 <- brm(testScore ~ bodyLength + (1 + bodyLength|mountainRange/site), data = sdragons,
+          iter=10000, warmup = 1000, chains=1, cores=8, seed=12) 
+
+summary(b1)
+pp_check(sdragons$testScore,  )
+
 
 
 
